@@ -286,5 +286,5 @@ ggplot(data=sleep3, aes(x=group,y=mImp)) +
  * There are many plot options, play around with them!
  * Portray variability when you can, but also tell a clear story
     + use greyscale, alter alphas, add trend lines, other 'shorthands'
-    + adding points is a greatr way to show variability, but sometimes can be overwheliming
+    + adding points is a great way to show variability, but sometimes can be overwheliming
  * When in doubt: defualy to a density plot or a violin.
