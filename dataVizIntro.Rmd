@@ -233,11 +233,11 @@ Question:
 
     - This is because they require relational comparisons
 
-- Bar plots / stacked bar plots) are OK for proportion data
+- Bar plots / stacked bar plots are OK for proportion data
 
     - Ok to hide nuances
 	
-    - Simple plot is fast and easy to percieve
+    - Simple plot is fast and easy to perceive
 
 - Bar plots are not good for other types of data
 
@@ -264,7 +264,7 @@ ggplot(data=sleep2, aes(x=group,y=mExtra)) +
 
 
 ##Ok Barplots
-Here's a subtle improvement: tabulate the data so that we plot the proportion of individuals with improved sleep quality by group.  If that's the actual question we're intersted in, this might be the right plot.  Why:  The data all exist between 0 and 1, which are the limits on the scale. 
+Here's a subtle improvement: tabulate the data so that we plot the proportion of individuals with improved sleep quality by group.  If that's the actual question we're interested in, this might be the right plot.  Why:  The data all exist between 0 and 1, which are the limits on the scale. 
 ```{r okbar, echo=T}
 sleep3 <- sleep %>% group_by(group) %>%
  mutate(Improved = ifelse(extra > 0, 1, 0)) %>%
