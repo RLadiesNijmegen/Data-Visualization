@@ -16,6 +16,7 @@ library(dplyr)
 ```
 
 ## Some announcements!
+- New R-Ladies chapter in Den Bosch!
 
 - We are looking for co-organizers!
 
